@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Creator</title>
+  <!-- style link here -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- input container starts here -->
+  <section class="resume-builder">
+    <div class="container">
+      <h1>Resume Creator</h1>
+      <div class="resume_container">
+        <form class="inputField">
+          <input type="text" name="name" placeholder="enter your name"  title="enter your name">
+          <input type="text" name="title" placeholder="Title/subHeading" title="Enter title/subheading">
+          <textarea name="work_experience" placeholder="work experience" col="40" rows="3" title="enter your work experience"></textarea>
+          <textarea name="academic_details" placeholder="Academic Details" col="40" rows="3" title="enter your Academic Details "></textarea>
+          <input type='text' placeholder="objective" title="enter your objective" name="objective">
+          <textarea name="skills" title="enter your skills" placeholder="skills" row="3"></textarea>
+          <textarea name="projects" title="enter your projects" placeholder="projects" cols="40" row="3"></textarea>
+          <textarea name='achievements' title="Achievements" placeholder="enter your achievements" cols="40" rows="3"></textarea>
+          <textarea name="contact" placeholder="contact information" title="enter your contact" cols="40" row="3"></textarea>
+        </form>
+      </div>
+      <p class="credit">
+        Created by
+        <a href="" target="_blank">
+          Roopa
+        </a>
+      </p>
+      <p class="tip">
+        **You can use markup in the text area for text decoration**
+      </p>
+    </div>
+  </section>
+
+  <!-- output container starts here -->
+  <div class="output_container"></div>
+
+
+  <!-- preview button -->
+  <button onclick="hide()">
+    Generate / Edit
+  </button>
+
+  <!-- script link here -->
+  <script src="script.js"></script>
+</body>
+
+</html>
